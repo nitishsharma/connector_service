@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "connector-service"
+version = "0.1.0"
+description = ""
+authors = ["Nitish Sharma <nisharma@linkedin.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.2"
+uvicorn = "^0.31.1"
+pydantic = "^2.9.2"
+kafka-python = "^2.0.2"
+aioredis = "^2.0.1"
+requests = "^2.32.3"
+psycopg2-binary = "^2.9.9"
+sqlalchemy = "^2.0.35"
+zookeeper = "^1.3.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
